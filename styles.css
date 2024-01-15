@@ -1,8 +1,8 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin:5px;
+    text-align: center;
+    margin: 0;
 }
-
 .header{
     display: flex;
     flex-direction: row;
@@ -16,7 +16,11 @@ body{
     font-weight: bolder;
     color: #F9FAF8;
     }
-
+.description-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+}
 a{
     color: whitesmoke;
 text-decoration: none;
@@ -33,26 +37,25 @@ ul{
     flex-direction: column;
     background-color: #1F2937;
     color: #E5E7EB;
-    justify-content: space-between;
     padding: 50px;
-    
+    text-align: left;
 }
+
 .img{
     display: flex;
     flex-direction: row;
     justify-content: flex-end; 
     align-items: center ;   
     padding: 0px;
-    margin-top: -230px;
-  
+    margin-top: -200px;
+    flex-wrap: wrap;
 }
 button{
     background-color: #3882f6;
     color: white;
     padding: 6px;
     border-radius: 6px;
-    align-self: flex-start;
-     
+    align-self: flex-start;   
 }
 
 
@@ -67,7 +70,6 @@ button{
 
 .container{
     padding: 50px;
-    border: 2px solid;
     margin: 80px;
     margin-top: 10px;
     display: flex;
@@ -77,16 +79,47 @@ button{
     gap: 15px;
 }
 
+.img1,
+.img2,
+.img3{
+    border: 2px solid white;
+    border-radius: 10px;
+}
 
+.parrafo{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    font-style: italic;
+}
 
+.autor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: -90px;
+    margin-right: 10px;
+    
+}
 
-
-
-
-
-
+.container1{
+    padding: 300px;
+}
+.callto{
+    background-color: #3882f6;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
 .footer{
-    position: fixed;
+    position: relative;
     padding: 5px;
     bottom: 0;
     left: 0;
